@@ -4,14 +4,18 @@
   "private": true,
   "dependencies": {
     "union": "0.3.5",
-    "flatiron": "0.3.11"
+    "flatiron": "0.3.11",
+    "cheerio": "~0.13.1",
+    "request": "~2.34.0",
+    "phantom": "~0.5.4",
+    "zombie": "~2.0.0-alpha31"
   },
   "devDependencies": {
     "api-easy": "0.3.2",
     "vows": "0.6.x"
   },
   "scripts": {
-    "test": "vows --spec",
+    "test": "mochar --reporter nyan",
     "start": "node app.js"
   },
   "name": "palete",
